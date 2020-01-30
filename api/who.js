@@ -9,5 +9,5 @@ module.exports = (req, res) => {
     who = req.cookies.who
   }
 
-  res.status(200).send(`Hello ${who}!`)
+  res.status(206).send(`Hello ${who}!`)
 }
